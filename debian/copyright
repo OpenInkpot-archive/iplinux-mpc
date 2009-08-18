@@ -1,0 +1,21 @@
+This package was debianized by Warren Dukes <warren.dukes@gmail.com> on
+Tue, 12 Aug 2003 19:14:01 -0400. It is currently maintained by Decklin
+Foster <decklin@red-bean.com>.
+
+It was downloaded from: http://mpd.wikia.com/
+
+Upstream Author: Max Kellermann <max@duempel.org>
+
+    Copyright (C) 2003-2008 Warren Dukes <warren.dukes@gmail.com>,
+                            Eric Wong <normalperson@yhbt.net>,
+                            Daniel Brown <danb@cs.utexas.edu>
+    Copyright (C) 2008-2009 Max Kellermann <max@duempel.org>
+
+
+mpc is released under the GPLv2. On Debian systems, the complete
+text of the GNU General Public License v2 can be found in the file
+'/usr/share/common-licenses/GPL-2'.
+
+'playstream' is distributed under the terms of the Artistic License,
+which may be found under '/usr/share/common-licenses/Artistic' on Debian
+systems.

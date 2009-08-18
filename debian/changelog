@@ -1,0 +1,153 @@
+mpc (0.16-1) unstable; urgency=low
+
+  * New upstream release
+  * Use debhelper 5 for now.
+
+ -- Decklin Foster <decklin@red-bean.com>  Thu, 28 May 2009 11:22:07 -0400
+
+mpc (0.15-1) unstable; urgency=low
+
+  * New upstream release
+  * Update copyright file
+  * Policy 3.8.0
+
+ -- Decklin Foster <decklin@red-bean.com>  Thu, 05 Feb 2009 11:44:54 -0500
+
+mpc (0.14-1) unstable; urgency=low
+
+  * New upstream release (Closes: #358618, #502578, #495430)
+  * Include playstream example script (Closes: #357157)
+
+ -- Decklin Foster <decklin@red-bean.com>  Mon, 22 Dec 2008 19:46:42 -0500
+
+mpc (0.12.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #402579, #408388)
+    - No longer uses MAXPATHLEN (Closes: #394731)
+
+ -- Decklin Foster <decklin@red-bean.com>  Tue, 27 Mar 2007 20:48:37 -0400
+
+mpc (0.11.2-2) unstable; urgency=low
+
+  * Adopting package.
+
+ -- Decklin Foster <decklin@red-bean.com>  Sat, 27 May 2006 19:51:23 -0400
+
+mpc (0.11.2-1) unstable; urgency=low
+
+  * New upstream: small bug fixes and features
+  * Updated manpage (upstream) Closes: #295029
+  * update email addresses, URL, documentation and Standards-Version
+  * Acknowledge NMU
+
+ -- Eric Wong <eric@petta-tech.com>  Sat, 12 Mar 2005 02:25:23 -0800
+
+mpc (0.11.1-2.1) unstable; urgency=low
+
+  * Non-maintainer upload (Sponsor for Eric)
+
+ -- Richard A. Hecker <hecker@debian.org>  Fri, 30 Jul 2004 09:05:34 -0700
+
+mpc (0.11.1-2) unstable; urgency=low
+
+  * remove empty/unused directories
+
+ -- Eric Wong <eric@petta-tech.com>  Sat, 19 Jun 2004 22:00:33 -0700
+
+mpc (0.11.1-1) unstable; urgency=low
+
+  * new upstream
+
+ -- Eric Wong <eric@petta-tech.com>  Fri, 18 Jun 2004 15:09:18 -0700
+
+mpc (0.11.0-1) unstable; urgency=low
+
+  * new upstream
+  * updated mppledit + new examples from upstream
+
+ -- Eric Wong <eric@petta-tech.com>  Thu, 17 Jun 2004 23:17:34 -0700
+
+mpc (0.10.3-4) unstable; urgency=low
+
+  * re-add mppledit to examples
+
+ -- Eric Wong <eric@petta-tech.com>  Mon, 17 May 2004 22:19:44 -0700
+
+mpc (0.10.3-3) unstable; urgency=low
+
+  * update copyright to include 2004
+
+ -- Eric Wong <eric@petta-tech.com>  Mon, 19 Apr 2004 02:21:52 -0700
+
+mpc (0.10.3-2) unstable; urgency=low
+
+  * take out Arch directories in the diff.gz
+
+ -- Eric Wong <eric@petta-tech.com>  Tue,  6 Apr 2004 14:44:03 -0700
+
+mpc (0.10.3-1) unstable; urgency=low
+
+  * new upstream
+  * document customizations in debian/rules
+
+ -- Eric Wong <eric@petta-tech.com>  Fri,  2 Apr 2004 21:16:33 -0800
+
+mpc (0.10.2-1) unstable; urgency=low
+
+  * new upstream
+
+ -- Eric Wong <eric@petta-tech.com>  Wed, 24 Mar 2004 23:04:54 -0800
+
+mpc (0.10.1-1) unstable; urgency=low
+
+  * new upstream
+
+ -- Eric Wong <eric@petta-tech.com>  Sun,  7 Mar 2004 10:16:06 -0800
+
+mpc (0.10.0-2) unstable; urgency=low
+
+  * update mppledit in /usr/share/doc/mpc/examples to allow sorting:
+    mppledit sort
+
+ -- Eric Wong <eric@petta-tech.com>  Sat,  6 Mar 2004 15:01:53 -0800
+
+mpc (0.10.0-1) unstable; urgency=low
+
+  * new upstream
+
+ -- Eric Wong <eric@petta-tech.com>  Tue,  2 Mar 2004 21:00:14 -0800
+
+mpc (0.9.2-2) unstable; urgency=low
+  
+  * updated Description a bit
+  * updated to Standards-Version 3.6.1
+  * bash completion installed to /etc/bash_completion.d
+  * new maintainer
+
+ -- Eric Wong <eric@petta-tech.com>  Sun, 22 Feb 2004 17:27:13 -0800
+
+mpc (0.9.2-1) unstable; urgency=low
+
+  * Updated to 0.9.2.
+  * Switch to using cdbs.
+
+ -- Warren Dukes (aka shank) <shank@mercury.chem.pitt.edu>  Tue, 28 Oct 2003 22:10:00 -0400
+
+mpc (0.9.1-1) unstable; urgency=low
+
+  * Updated to 0.9.1.
+
+ -- Warren Dukes (aka shank) <shank@mercury.chem.pitt.edu>  Tue, 06 Sep 2003 22:10:00 -0400
+
+mpc (0.9.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Warren Dukes <shank@mercury.chem.pitt.edu>  Tue, 29 Aug 2003 20:07:00 -0400
+
+mpc (0.8.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Warren Dukes <shank@mercury.chem.pitt.edu>  Tue, 12 Aug 2003 19:14:01 -0400
+

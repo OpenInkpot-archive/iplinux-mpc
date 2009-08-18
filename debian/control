@@ -1,0 +1,20 @@
+Source: mpc
+Section: sound
+Priority: optional
+Maintainer: Decklin Foster <decklin@red-bean.com>
+Build-Depends: debhelper (>> 4.1.0), cdbs
+Standards-Version: 3.8.0
+
+Package: mpc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: mpd
+Enhances: mpd
+Provides: mpd-client
+Description: A command-line tool to interface MPD
+ MPC, music player command, is a command line tool to interface MPD, Music
+ Player Daemon.  It is fast and lightweight like MPD, making it ideal for 
+ scripting commands and binding to hotkeys.  Completion for the Bash shell
+ is provided.
+ .
+ URL: http://www.MusicPD.org/?page=mpc
