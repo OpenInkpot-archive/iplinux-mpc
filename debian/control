@@ -1,7 +1,7 @@
 Source: mpc
-Section: sound
+Section: core
 Priority: optional
-Maintainer: Decklin Foster <decklin@red-bean.com>
+Maintainer: Alexander V. Nikolaev <avn@daemon.hole.ru>
 Build-Depends: debhelper (>> 4.1.0), cdbs
 Standards-Version: 3.8.0
 

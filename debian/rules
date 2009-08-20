@@ -4,16 +4,13 @@ include /usr/share/cdbs/1/class/autotools.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
 
 install/mpc::
-	cd debian/mpc && ( \
-		mv usr/share/doc/mpc/mpc-bashrc etc/bash_completion.d/mpc; \
-		rm -f usr/share/doc/mpc/COPYING )
+	cd debian/mpc &&  rm -fr usr/share/doc/mpc
 
 	# dunno why autotools puts stuff here, forwarded to upstream
 	-rmdir --ignore-fail-on-non-empty \
 	  debian/$(DEB_SOURCE_PACKAGE)/usr/share/$(DEB_SOURCE_PACKAGE)
 	
 	# the shell scripts are in the usr/share/doc/examples dir:
-	rm debian/mpc/usr/share/doc/mpc/*.sh
 
 # uncomment as needed for user customization:
 

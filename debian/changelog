@@ -1,3 +1,9 @@
+mpc (0.16-2.ip1) asimov; urgency=low
+
+  * Upload to IPLinux
+
+ -- Alexander V. Nikolaev <avn@daemon.hole.ru>  Thu, 20 Aug 2009 07:28:50 +0300
+
 mpc (0.16-1) unstable; urgency=low
 
   * New upstream release
